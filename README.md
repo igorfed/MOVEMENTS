@@ -20,9 +20,14 @@ The FPGA will automatically be configured with the bitstream file when power on 
 
 **On/Off HW triggering:**
 
-- 4 fps 
-<img src = "Images/HWTrigger/4fps.png" width = 600>
-- 5 fps 
-<img src = "Images/HWTrigger/5fps.png" width = 600>
-- 20 fps 
-<img src = "Images/HWTrigger/20fps.png" width = 600>
+FPGA generates two meanders with selectable frequencys (250 ms, 200 ms and 50 ms)  
+- **4 fps  SW[3 downto 0] = "00100" (4 in HEX format)**
+<img src0 = "Images/HWTrigger/4fps.png" width = 600>
+- **5 fps  SW[3 downto 0] = "00100" (4 in HEX format)**
+<img src1 = "Images/HWTrigger/5fps.png" width = 600>
+- **20 fps  SW[3 downto 0] = "00100" (4 in HEX format)**
+<img src2 = "Images/HWTrigger/20fps.png" width = 600>
+
+To stop meander any orther combinations in SW[3 downto 0] must be selected.
+
+
