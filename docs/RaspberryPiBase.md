@@ -1,5 +1,15 @@
 ### Raspberry Pi Base settings
 
+**Connect network cable into raspberry pi**
+``` 
+nmap -sP xx.xx.xx.0/24 
+```
+**Run ssh**
+
+``` 
+ssh pi@xx.xx.xx.xx
+``` 
+
 **Set DHCP server parameters**
 ``` 
 sudo vim /etc/dhcpcd.conf
