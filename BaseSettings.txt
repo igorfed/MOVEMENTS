@@ -1,0 +1,811 @@
+   1  sudo passwd pi
+    2  ll
+    3  vim .bashrc
+    4  sudo apt-get install vim
+    5  vim
+    6  ls -al
+    7  vim .bashrc
+    8  source
+    9  source .bashrc
+   10  ll
+   11  route
+   12  ifconfig
+   13  sudo vim /etc/dhcpcd.conf
+   14  ll
+   15  sudo cp /etc/dhcpcd.conf dhcpcd.conf.backup
+   16  sudo vim /etc/dhcpcd.conf
+   17  sudo vim /etc/network interfaces
+   18  source-directory
+   19  sudo vim /etc/network/interfaces
+   20  sudo cp /etc/network/interfaces /etc/network/interfaces.backup
+   21  sudo vim /etc/network/interfaces
+   22  ifconfig
+   23  sudo apt-get install hostapd
+   24  sudo apt-get update
+   25  sudo apt-get install hostapd
+   26  sudo vim /etc/hostapd/hostapd.conf
+   27  vim .vimrc
+   28  sudo vim /etc/hostapd/hostapd.conf
+   29  vim .vimrc
+   30  vim ~/.vimrc
+   31  sudo vim /etc/hostapd/hostapd.conf
+   32  sudo vim /root/.vimrc
+   33  sudo vim /etc/hostapd/hostapd.conf
+   34  sudo vim /etc/default/hostapd
+   35  hostapd /etc/hostapd/hostapd.conf
+   36  sudo hostapd /etc/hostapd/hostapd.conf
+   37  service hostapd restart
+   38  sudo service hostapd restart
+   39  sudo systemctl unmask hostapd
+   40  ==== AUTHENTICATION FAILED ===
+   41  sudo systemctl enable hostapd
+   42  sudo systemctl start hostapd
+   43  sudo service hostapd restart
+   44  sudo systemctl status hostapd.service
+   45  reboot
+   46  sudo reboot
+   47  sudo vim /etc/dhcpd.conf
+   48  sudo vim /etc/dhcpcd.conf
+   49  sudo reboot
+   50  sudo vim /etc/network/interfaces
+   51  :wq
+   52  dhcpcd
+   53  sudo dhcpcd
+   54  sudo reboot
+   55  ll
+   56  sudo vim /etc/network/interfaces
+   57  sudo dhcpcd
+   58  sudo reboot
+   59  sudo vim /etc/network/interfaces
+   60  sudo dhcpcd
+   61  sudo vim /etc/network/interfaces
+   62  sudo dhcpcd
+   63  sudo vim /etc/network/interfaces
+   64  sudo dhcpcd
+   65  sudo reboot
+   66  sudo ifconfig
+   67  sudo dhcpcd
+   68  sudo vim /etc/network/interfaces
+   69  sudo reboot
+   70  exit
+   71  sudo ifconfig
+   72  sudo vim /etc/network/interfaces
+   73  sudo dhcpcd
+   74  ifconfig
+   75  sudo vim /etc/network/interfaces
+   76  sudo reboot
+   77  ll
+   78  sudo service hostapd restart
+   79  sudo systemctl status hostapd.service
+   80  sudo vim /etc/hostapd/hostapd.conf
+   81  sudo ifconfig
+   82  sudo systemctl status hostapd.service
+   83  sudo vim /etc/hostapd/hostapd.conf
+   84  sudo service hostapd restart
+   85  sudo vim /etc/hostapd/hostapd.conf
+   86  sudo systemctl status hostapd.service
+   87  sudo service hostapd restart
+   88  sudo systemctl status hostapd.service
+   89  sudo vim /etc/hostapd/hostapd.conf
+   90  sudo service hostapd restart
+   91  sudo journalctl -xe
+   92  sudo service hostapd restart
+   93  systemctl status hostapd.service
+   94  sudo service hostapd stop
+   95  sudo service hostapd start
+   96  ifconfig
+   97  sudo systemctl status hostapd.service
+   98  sudo vim /etc/hostapd/hostapd.conf
+   99  sudo service hostapd stop
+  100  sudo service hostapd start
+  101  sudo ifconfig
+  102  sudo vim /etc/hostapd/hostapd.conf
+  103  sudo /etc/init.d/hostapd stop
+  104  sudo /etc/init.d/hostapd start
+  105  sudo systemctl status hostapd.service
+  106  sudo /etc/init.d/hostapd restart
+  107  rfkill unblock wifi
+  108  sudo /etc/init.d/hostapd restart
+  109  sudo /etc/init.d/hostapd stop
+  110  sudo /etc/init.d/hostapd start
+  111  sudo systemctl status hostapd.service
+  112  sudo hostapd /etc/hostapd/hostapd.conf
+  113  sudo reboot
+  114  sudo hostapd /etc/hostapd/hostapd.conf
+  115  sudo /etc/init.d/hostapd restart
+  116  sudo systemctl status hostapd.service
+  117  sudo /etc/init.d/hostapd stop
+  118  sudo /etc/init.d/hostapd start
+  119  sudo systemctl status hostapd.service
+  120  sudo /etc/init.d/hostapd stop
+  121  sudo /etc/init.d/hostapd start
+  122  sudo systemctl status hostapd.service
+  123  sudo /etc/init.d/hostapd start
+  124  sudo systemctl status hostapd.service
+  125  sudo systemctl status shh.service
+  126  sudo systemctl status ssh.service
+  127  sudo systemctl status hostapd stop
+  128  sudo /etc/init.d/hostapd stop
+  129  sudo /etc/init.d/hostapd start
+  130  sudo vim /etc/hostapd/hostapd.conf
+  131  sudo /etc/init.d/hostapd start
+  132  sudo journalctl -xe
+  133  sudo vim /etc/default/hostapd
+  134  sudo /etc/init.d/hostapd start
+  135  sudo vim /etc/hostapd/hostapd.conf
+  136  ifconfig
+  137  sudo systemctl status hostapd
+  138  exit
+  139  sudo iptables
+  140  iptables
+  141  iptables -L
+  142  sudo iptables -L
+  143  exit
+  144  iptables -L
+  145  sudo iptables -L
+  146  sudo iptables -v
+  147  sudo iptables -LN
+  148  sudo iptables -Ln
+  149  sudo iptables -L
+  150  sudp iptables-save
+  151  sudo iptables-save
+  152  sudo iptables -A INPUT -i lo -j ACCEPT
+  153  sudo iptables-save
+  154  sudo iptables -l
+  155  sudo iptables -n
+  156  sudo iptables -LN
+  157  iptables -L
+  158  sudo iptables -L
+  159  iptables save
+  160  exit
+  161  ll
+  162  mkdir vpn
+  163  ll
+  164  cd vpn/
+  165  ll
+  166  wget https://git.io/vpn -O openvpn-install.sh
+  167  ll
+  168  bash openvpn-install.sh
+  169  sudo bash openvpn-install.sh
+  170  ll
+  171  rm openvpn-install.sh
+  172  ll
+  173  cd ..
+  174  ll
+  175  rm vpn/
+  176  rm -rf vpn/
+  177  ll
+  178  sudp apt-get install openvpn
+  179  sudo apt-get install openvpn
+  180  ll /etc/openvpn/
+  181  ll /etc/openvpn/client/
+  182  sudo cat /etc/openvpn/update-resolv-conf
+  183  exit
+  184  openvpn
+  185  cd /etc/openvpn/client/
+  186  ll
+  187  touch rtk.ovpn
+  188  sudo touch rtk.ovpn
+  189  ll
+  190  sudo vim rtk.ovpn
+  191  ifconfig
+  192  cd ..
+  193  cd ~
+  194  ll
+  195  sudo cp rtk1.ovpn /etc/openvpn/client/
+  196  ll
+  197  rm rtk1.ovpn
+  198  openvpn /etc/openvpn/clien/rtk.ovpn
+  199  openvpn /etc/openvpn/clien/rtk1.ovpn
+  200  sudo openvpn /etc/openvpn/clien/rtk1.ovpn
+  201  sudo openvpn /etc/openvpn/client/rtk1.ovpn
+  202  sudo openvpn /etc/openvpn/client/rtk1.ovpn &
+  203  ifconfig
+  204  sudo ifconfig
+  205  route
+  206  route -n
+  207  sudo route -n
+  208  sudo reboot
+  209  sudo ifconfig
+  210  ifconfig eth1 up
+  211  sudo ifconfig eth1 up
+  212  ifconfig
+  213  sudo ifconfig eth1 down
+  214  sudo lsusb
+  215  sudo ifconfig 12d1:14dc up
+  216  ifconfig
+  217  sudo ifconfig eth2 down
+  218  sudo ifconfig eth2 up
+  219  sudo ifconfig eth1 up
+  220  sudo dhclient eth1
+  221  sudo ifconfig
+  222  sudo iptables -t nat -A PREOUTING -i eth0 -p tcp --dport 80 -j DNAT --to-destination 192.168.8.1:80
+  223  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j DNAT --to-destination 192.168.8.1:80
+  224  sudo iptables-save
+  225  ifconfig
+  226  route -n
+  227  ping 192.168.8.1
+  228  sudo iptables-save
+  229  iptable
+  230  sudo iptables
+  231  sudo iptables update
+  232  sudo iptables status
+  233  sudo iptables state
+  234  sudo iptables -h
+  235  sudo iptables -h | more
+  236  ifconfig
+  237  sudo systemctl iptables stop
+  238  sudo service
+  239  sudo service iptables stop
+  240  sudo iptables -L
+  241  iptables -A INPUT -p tcp -i eth0 --dport 80 -j ACCEPT
+  242  iptables
+  243  sudo iptables -A INPUT -p tcp -i eth0 --dport 80 -j ACCEPT
+  244  sudo iptables-save
+  245  ifconfig
+  246  sudo ifconfig
+  247  sudo ifconfig eth1 up
+  248  sudo dhclient eth1
+  249  ifconfig
+  250  history
+  251  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 14400 -j DNAT --to-destination 192.168.8.1:80
+  252  telnet
+  253  sudo apt-get install telnet
+  254  telnet
+  255  telnet 192.168.8.1 80
+  256  telnet 192.168.8.1 90
+  257  telnet 192.168.8.1 10
+  258  telnet 192.168.8.1 80
+  259  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 14400 -j DNAT --to-destination 192.168.0.103:22
+  260  sudo iptables-save
+  261  sudo iptables -F
+  262  sudo iptables-save
+  263  sudo iptables -X
+  264  sudo iptables-save
+  265  sudo iptables -z
+  266  sudo iptables -Z
+  267  sudo iptables-save
+  268  sudo iptables -t nat -P PREROUTING ACCEPT
+  269  sudo iptables-save
+  270  sudo iptables -t nat -F POSTROUTING
+  271  sudo iptables-save
+  272  sudo iptables -t nat -F
+  273  sudo iptables-save
+  274  -A PREROUTING -i eth0 -p tcp -m tcp --dport 14400 -j DNAT --to-destination 192.168.0.103:22
+  275  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 14400 -j DNAT --to-destination 192.168.0.103:22
+  276  sudo iptables -t nat -F
+  277  sudo iptables-save
+  278  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 14400 -j DNAT --to-destination 192.168.8.1:80
+  279  route
+  280  sudo route add -host 192.168.8.1 dev eth1
+  281  sudo route -n
+  282  sudo route add -host 192.168.8.1 gw 192.168.8.0
+  283  sudo route add -host 192.168.8.1 gw 192.168.8.1
+  284  sudo route -n
+  285  ping 192.168.8.1
+  286  telnet 192.168.8.1 80
+  287  sudo iptables -t nat -A PREROUTING -i eth0 -o eth1 -p tcp --dport 14400 -j DNAT --to-destination 192.168.8.1:80
+  288  sudo iptables-save
+  289  sudo iptables -t nat -F
+  290  sudo iptables -t nat -A PREROUTING  -p tcp --dport 14400 -j DNAT --to-destination 192.168.8.1:80
+  291  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to-destination 192.168.8.1:80
+  292  telnet 192.168.8.1:22
+  293  telnet 192.168.8.1 22
+  294  telnet 192.168.8.1 21
+  295  sudo iptables -t nat -F
+  296  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to-destination 192.168.8.100:22
+  297  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13001 -j DNAT --to-destination 192.168.8.1:22
+  298  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13002 -j DNAT --to-destination 192.168.8.2:22
+  299  sudo iptables -t nat -A PREROUTING  -i eth1 -p tcp --dport 13002 -j DNAT --to-destination 192.168.8.1:80
+  300  sudo iptables -t nat -A PREROUTING  -i eth1 -p tcp --dport 13003 -j DNAT --to-destination 192.168.8.1:80
+  301  sudo iptables -t nat -A POSTROUTING -o eth0 -j SNAT -j MASQUERADE
+  302  sudo iptables -t nat -A POSTROUTING -s 192.168.8.1 -o eth0 -j MASQUERADE
+  303  sudo iptables -t nat -F
+  304  sudo iptables-save
+  305  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to-destination 192.168.8.1:80
+  306  sudo iptables -t nat -A POSTROUTING  -s 192.168.8.1/32 -o eth0 -j MASQUERADE
+  307  sudo iptables-save
+  308  sudo iptables -t nat -F
+  309  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to-destination 192.168.8.1:80
+  310  sudo iptables -t nat -A POSTROUTING  -s 192.168.8.1/32 -o eth0 -j SNAT --to-source 192.
+  311  sudo iptables-save
+  312  sudo iptables -t nat -F
+  313  sudo cat /var/log/kern.log | more
+  314  sudo cat /var/log/kern.log | less
+  315  clear
+  316  ping 192.168.8.1
+  317  sudo route -n
+  318  history
+  319  history | grep route
+  320  sudo route add -host 108.61.171.128 gw 192.168.8.1
+  321  ping 108.61.171.128
+  322  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to-destination 108.61.171.128:80
+  323  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to 192.168.8.1:80
+  324  sudo iptables -t nat -F
+  325  sudo iptables -t nat -A PREROUTING  -p tcp --dport 13000 -j DNAT --to 192.168.8.1:80
+  326  sudo iptables-save
+  327  iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  328  iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp -j SNAT --to 192.168.0.103
+  329  history
+  330  history | grep POSTROUTING
+  331  iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to-soure 192.168.0.103
+  332  sudo iptables -t nat -A POSTROUTING -d 10.1.1.1 -p tcp --dport 80 -j SNAT --to 10.1.1.254
+  333  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  334  sudo iptables -t nat -F
+  335  sudo iptables-save
+  336  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  337  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  338  sudo iptables-save
+  339  ifcondig
+  340  ifconfig
+  341  sudo iptables -t nat -F
+  342  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13000 -j DNAT --to 192.168.8.100:22
+  343  sudo iptables -t nat -F
+  344  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13000 -j DNAT --to 192.168.8.1:80
+  345  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  346  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  347  sudo iptables-save
+  348  sudo iptables -t nat -F
+  349  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  350  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100/24 -p tcp --dport 80 -j SNAT --to 192.168.0.103/24
+  351  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100/24 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  352  sudo iptables-save
+  353  sudo iptables -t nat -F
+  354  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  355  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  356  route -n
+  357  sudo iptables -t nat -F
+  358  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  359  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j MASQUERADE
+  360  sudo iptables-save
+  361  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp  -j MASQUERADE
+  362  sudo iptables -t nat -F
+  363  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  364  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp  -j MASQUERADE
+  365  sudo iptables -t nat -F
+  366  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  367  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j DNAT --to 192.168.0.101
+  368  route -n
+  369  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j DNAT --to 192.168.0.1
+  370  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j DNAT --to 192.168.0.103
+  371  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.101
+  372  sudo iptables-save
+  373  sudo tcpdump
+  374  sudo apt-get install tcpdump
+  375  sudo tcpdump -i rth1
+  376  sudo tcpdump -i eth1
+  377  history save
+  378  man history
+  379  history -w
+  380  history
+  381  sudo tcpdump -i eth1
+  382  sudo tcpdump -i wlan0
+  383  sudo tcpdump -i eth1
+  384  sudo tcpdump -i eth0 pp 13013
+  385  history
+  386  history | grep tcpdump
+  387  sudo tcpdump -i eth0 nn -port 13013
+  388  sudo tcpdump -i eth0 -nn port 13013
+  389  sudo tcpdump -i eth0 -nn port 13014
+  390  sudo tcpdump -i eth0 -nn port 13014 22
+  391  sudo tcpdump -i eth0
+  392  sudo tcpdump -i eth0 > dabin
+  393  ll
+  394  vim dabin
+  395  sudo tcpdump
+  396  ll
+  397  vim dabin
+  398  sudo tcpdump -i wlan0
+  399  sudo tcpdump -i eth1
+  400  history
+  401  sudo tcpdump -i eth0 pp 13000
+  402  sudo tcpdump -i eth0 -nn port 13000
+  403  sudo tcpdump -i eth1
+  404  sudo tcpdump -i eth0 -nn port 80
+  405  sudo tcpdump -i eth1
+  406  exit
+  407  sudo tcpdump -i eth0 -nn port 80
+  408  exit
+  409  ifconfig
+  410  sudo ifconfig eth1
+  411  sudo ifconfig eth1 up
+  412  sudo dhclient eth1
+  413  ifconfig
+  414  sudo route -n
+  415  history
+  416  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13000 -j DNAT --to 192.168.8.1:80
+  417  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13001 -j DNAT --to 192.168.8.101:80
+  418  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13001 -j DNAT --to 192.168.8.100:80
+  419  history
+  420  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13001 -j DNAT --to 192.168.8.101:80
+  421  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13002 -j DNAT --to 192.168.8.101:80
+  422  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13002 -j DNAT --to 192.168.8.0:80
+  423  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13003 -j DNAT --to 192.168.8.0:80
+  424  sudo route
+  425  sudo
+  426  2
+  427  iptables -t nat -A PREROUTING -s 192.168.8.0/24 -d 192.168.0.103/32 -p tcp -m tcp --dport 80 -j DNAT --to-destination 192.168.8.1
+  428  sudo iptables -t nat -A PREROUTING -s 192.168.8.0/24 -d 192.168.0.103/32 -p tcp -m tcp --dport 80 -j DNAT --to-destination 192.168.8.1
+  429  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13002 -j DNAT --to 192.168.8.0:80
+  430  history
+  431  sudo iptables -t nat -F
+  432  sudo iptables -t nat -A PREROUTING -s 192.168.8.0/24 -d 192.168.0.103/32 -p tcp -m tcp --dport 80 -j DNAT --to-destination 192.168.8.1
+  433  sudo iptables -t nat -F
+  434  sudo iptables -t nat -A PREROUTING  -i lo -p tcp --dport 13002 -j DNAT --to 192.168.8.0:80
+  435  telnet 127.0.0.1 13002
+  436  sudo iptables -t nat -A PREROUTING  -i lo -p tcp --dport 13003 -j DNAT --to 192.168.8.1:80
+  437  telnet 127.0.0.1 13003
+  438  sudo iptables -t nat -A PREROUTING  -i lo -p tcp --dport 13004 -j DNAT --to 127.0.0.1:22
+  439  telnet 127.0.0.1 13004
+  440  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13005 -j DNAT --to 127.0.0.1:22
+  441  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13006 -j DNAT --to 192.168.0.103:22
+  442  sudo iptables -t nat -A PREROUTING  -i eth0 -p tcp --dport 13007 -j DNAT --to 127.0.0.1:22
+  443  sudo iptables -t nat -A PREROUTING  -i eth0 -o lo -p tcp --dport 13008 -j DNAT --to 127.0.0.1:22
+  444  sudo iptables --help
+  445  sudo iptables --help | more
+  446  telnet 127.0.0.1 13009
+  447  ifconfig
+  448  telnet 127.0.0.1 22
+  449  telnet 192.168.10.1 22
+  450  sudo iptables -t nat -A PREROUTING  -i eth0 -o lo -p tcp --dport 13010 -j DNAT --to 192.168.10.1:22
+  451  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13010 -j DNAT --to 192.168.10.1:22
+  452  telnet 192.168.0.103 22
+  453  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13011 -j DNAT --to 192.168.10.1:22
+  454  telnet 192.168.0.103 13011
+  455  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13012 -j DNAT --to 192.168.8.100:22
+  456  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13013 -j DNAT --to 192.168.8.101:22
+  457  sudo route
+  458  ping 192.168.8.101
+  459  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13014 -j DNAT --to 192.168.8.100:22
+  460  ifocnfig
+  461  ifconfig
+  462  sudo route
+  463  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13016 -j DNAT --to 192.168.10.101:22
+  464  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13017 -j DNAT --to 192.168.10.111:80
+  465  ping 192.168.10.111
+  466  sudo iptables-save
+  467  history
+  468  sudo iptables-save
+  469  sudo iptables -t nat -F
+  470  sudo iptables-save
+  471  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 13000 -j DNAT --to 192.168.8.1:80
+  472  sudo iptables-save
+  473  echo "1" >  /proc/sys/net/ipv4/ip_forward
+  474  sudo echo "1" >  /proc/sys/net/ipv4/ip_forward
+  475  sudo echo "1" >  sudo /proc/sys/net/ipv4/ip_forward
+  476  cat /proc/sys/net/ipv4/ip_forward
+  477  vim /proc/sys/net/ipv4/ip_forward
+  478  sudo vim /proc/sys/net/ipv4/ip_forward
+  479  vim /etc/sysctl.conf
+  480  sduo vim /etc/sysctl.conf
+  481  sudo vim /etc/sysctl.conf
+  482  sysctl -p
+  483  sudo sysctl -p
+  484  sudo iptables-save
+  485  telnet 192.168.8.1 80
+  486  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  487  history
+  488  history | history POSTROUTING
+  489  history | grep POSTROUTING
+  490  iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to-soure 192.168.0.103
+  491  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to-soure 192.168.0.103
+  492  sudo iptables -t nat -A POSTROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  493  telnet 192.168.8.1 80
+  494  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  495  sudo iptables -t nat -F
+  496  sudo iptables -t nat -A PREROUTING  -i eth1  -p tcp --dport 80 -j DNAT --to 192.168.0.103
+  497  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  498  sudo iptables-save
+  499  sudo iptables -t nat -A PREROUTING -d 192.168.8.100 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  500  sudo iptables -t nat -A PREROUTING -d 192.168.8.100 -p tcp --dport 80 -j DNAT --to 192.168.0.103
+  501  sudo iptables -t nat -F
+  502  sudo iptables -t nat -A PREROUTING -d 192.168.8.100 -p tcp --dport 80 -j DNAT --to 192.168.0.101
+  503  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  504  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  505  sudo iptables-save
+  506  sudo iptables -t nat -F
+  507  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  508  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  509  sudo iptables -t nat -A POSTROUTING -s 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  510  sudo iptables -t nat -A POSTROUTING -s 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.0.101
+  511  sudo iptables -t nat -F
+  512  sudo iptables -t nat -A POSTROUTING -s 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.0.101
+  513  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  514  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  515  sudo iptables -t nat -F
+  516  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  517  sudo iptables -t nat -F
+  518  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  519  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.0
+  520  sudo iptables -t nat -F
+  521  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  522  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.0.103
+  523  sudo iptables -t nat -F
+  524  sudo iptables -t nat -A PREROUTING  -i eth0  -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  525  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  526  sudo iptables -t nat -A PREROUTING -s 192.168.8.0/24 -d 192.168.0.103/32 -p tcp -m tcp --dport 80 -j DNAT --to-destination 192.168.8.1
+  527  sudo iptables-save
+  528  iptables -t nat -A POSTROUTING -s 192.168.8.0/24 -d 10.20.20.0/24 -j SNAT --to-source 10.20.20.2
+  529  sudo iptables -t nat -F
+  530  sudo iptables -t nat -A PREROUTING -d 192.168.0.103 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  531  iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  532  sudo iptables -t nat -A POSTROUTING -d 192.168.8.1 -p tcp --dport 80 -j SNAT --to 192.168.8.100
+  533  sudo iptables -t nat -F
+  534  sudo iptables -t nat -A PREROUTING -d 192.168.0.103 -p tcp --dport 80 -j DNAT --to 192.168.8.1:80
+  535  telnet 192.168.0.103 80
+  536  telnet 192.168.0.103 22
+  537  telnet 192.168.8.1 80
+  538  sudo apt-get install dnsmasq
+  539  sudo cp /etc/dnsmasq.conf /etc/dnsmasq.conf.backup
+  540  vim /etc/dnsmasq.conf
+  541  sudo vim /etc/dnsmasq.conf
+  542  dnsmasq
+  543  sudo dnsmasq
+  544  sudo vim /etc/dnsmasq.conf
+  545  sudo dnsmasq
+  546  sudo vim /etc/dnsmasq.conf
+  547  sudo dnsmasq
+  548  netstat -tnul
+  549  netstat
+  550  netstat -t
+  551  netstat -u
+  552  netstat -n
+  553  netstat -tunl
+  554  man netstat
+  555  sudo dnsmasq
+  556  sudo vim /etc/dnsmasq.conf
+  557  sudo dnsmasq
+  558  sudo reboot
+  559  sudo dnsmasq
+  560  sudo service dnsmasq restart
+  561  sudo service dnsmasq state
+  562  sudo service dnsmasq status
+  563  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  564  sudo iptables -t nat -A PREROUTING -d 192.168.0.103 -p tcp --dport 80 -j DNAT --to 192.168.10.155:80
+  565  sudo poweroff
+  566  exit
+  567  ll
+  568  history
+  569  ll
+  570  touch iptables.sh
+  571  ll
+  572  sudo chmod a+x iptables.sh
+  573  ll
+  574  vim iptables.sh
+  575  history | grep iptables
+  576  vim iptables.sh
+  577  sudo iptables.sh
+  578  ll
+  579  sudo bash iptables.sh
+  580  sudo iptables-save
+  581  sudo cat /var/lib/misc/dnsmasq.leases
+  582  sudo vim /etc/dnsmasq.conf
+  583  sudo service dnsmasq restart
+  584  ll
+  585  touch dhcp.sh
+  586  vim dhcp.sh
+  587  chmod a+x dhcp.sh
+  588  ./dhcp.sh
+  589  ll
+  590  vim dabin
+  591  rm dabin
+  592  ll
+  593  vim sudo
+  594  rm sudo
+  595  ll
+  596  touch vpn.sh
+  597  ll
+  598  history | openvpn
+  599  history | grep openvpn
+  600  ll
+  601  chmos a+x vpn.sh
+  602  chmod a+x vpn.sh
+  603  ll
+  604  vim vpn.sh
+  605  sudo ./vpn.sh
+  606  ll
+  607  vim iptables.sh
+  608  ifconfig
+  609  vim iptables.sh
+  610  sudo ./iptables.sh
+  611  vim iptables.sh
+  612  ll
+  613  touch dongle.sh
+  614  history | grep ifconfig
+  615  vim dongle.sh
+  616  history | grep dhclient
+  617  vim dongle.sh
+  618  chmod a+x dongle.sh
+  619  ll
+  620  sudo ./dongle.sh
+  621  ifconfig
+  622  vim iptables.sh
+  623  ll
+  624  vim vpn.sh
+  625  sudo vim /etc/openvpn/client/rtk1.ovpn
+  626  ifconfig
+  627  ll
+  628  sudo ./iptables.sh
+  629  vim vpn.sh
+  630  man openvpn
+  631  sudo route -n
+  632  ll
+  633  sudo bash dhcp.sh
+  634  telnet 192.168.10.155:80
+  635  telnet 192.168.10.155 80
+  636  iptables-save
+  637  sudo iptables-save
+  638  ifconfig
+  639  ll
+  640  vim iptables.sh
+  641  sudo bash iptables.sh
+  642  ll
+  643  touch total
+  644  touch total.sh
+  645  rm total
+  646  ll
+  647  chomd a+x total.sh
+  648  chmod a+x total.sh
+  649  ll
+  650  vim total.sh
+  651  ll
+  652  sudo reboot
+  653  ll
+  654  ./total.sh
+  655  sudo ./total.sh
+  656  sudo iptables-save
+  657  ll
+  658  vim iptables.sh
+  659  sudo ./iptables.sh
+  660  ll
+  661  touch rtkboot.sh
+  662  chmod a+x rtkboot.sh
+  663  ll
+  664  vim rtkboot.sh
+  665  ll
+  666  vim total.sh
+  667  vim rtkboot.sh
+  668  ll
+  669  sudo reboot
+  670  ll
+  671  vim rtkboot.sh
+  672  ./rtkboot.sh
+  673  route -n
+  674  sudo vim /etc/rc.local
+  675  ll
+  676  sudo reboot
+  677  sudo poweroff
+  678  vim /etc/hostapd/hostapd.conf
+  679  sudo vim /etc/hostapd/hostapd.conf
+  680  sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf
+  681  sudo service hostapd restart
+  682  sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf
+  683  sudo vim /etc/hostapd/hostapd.conf
+  684  sudo service hostapd restart
+  685  sudo vim /etc/hostapd/hostapd.conf
+  686  ll
+  687  vim iptables.sh
+  688  sudo bach iptables.sh
+  689  vim iptables.sh
+  690  sudo iptables-save
+  691  ifconfig
+  692  ll
+  693  vim iptables.sh
+  694  sudo route -n
+  695  ping www.baidu.com
+  696  sudo apt-get install vim
+  697  vim iptables.sh
+  698  ll
+  699  sudo ./iptables.sh
+  700  vim iptables.sh
+  701  sudo ./iptables.sh
+  702  ll
+  703  sudo route
+  704  touch route.sh
+  705  ll
+  706  chmod a+X route.sh
+  707  ll
+  708  vim route.sh
+  709  sudo route
+  710  fg
+  711  ./route.sh
+  712  sudo ./route.sh
+  713  ll
+  714  chmod a+x route.sh
+  715  sudo ./route.sh
+  716  vim route.sh
+  717  route add -net 10.8.0.0 netmask 128.0.0.0 gw 10.8.0.1 dev tun0
+  718  route -n
+  719  route del 0.0.0.0 gw 10.8.0.1
+  720  sudo route del 0.0.0.0 gw 10.8.0.1
+  721  sudo route del 0.0.0.0 netmask 128.0.0.0 gw 10.8.0.1
+  722  sudo route
+  723  sudo route del -net 0.0.0.0 netmask 128.0.0.0 gw 10.8.0.1
+  724  ll
+  725  route -n
+  726  vim route.sh
+  727  vim rtkboot.sh
+  728  sudo poweroff
+  729  sudo route -n
+  730  ll
+  731  vim rtkboot.sh
+  732  sudo ./route.sh
+  733  vim rtkboot.sh
+  734  vim total.sh
+  735  vim vpn.sh
+  736  vim rtkboot.sh
+  737  sudo poweroff
+  738  ll
+  739  sudo dhcp.sh
+  740  sudo ./dhcp.sh
+  741  telnet 192.168.10.155 80
+  742  history
+  743  vim /etc/hostapd/hostapd.conf
+  744  sudo vim /etc/hostapd/hostapd.conf
+  745  history | grep hostapd
+  746  sudo service hostapd restart
+  747  exit
+  748  ll
+  749  vim total.sh
+  750  sudo reboot
+  751  ifconfig
+  752  chpasswd
+  753  passwd
+  754  ll
+  755  vim vpn.sh
+  756  ifconfig
+  757  ll
+  758  vim vpn.sh
+  759  cp rtk_igor.ovpn /etc/openvpn/
+  760  cp rtk_igor.ovpn /etc/openvpn/client/
+  761  sudo cp rtk_igor.ovpn /etc/openvpn/client/
+  762  ll
+  763  sudo rm /etc/openvpn/client/rtk1.ovpn
+  764  sudo rm /etc/openvpn/client/rtk.ovpn
+  765  vim vpn.sh
+  766  ./vpn.sh
+  767  sudo ./vpn.sh
+  768  ll
+  769  vim total.sh
+  770  sudo ./iptables.sh
+  771  vim iptables.sh
+  772  ifconfig
+  773  sudo reboot
+  774  ll
+  775  vim iptables.sh
+  776  sudo reboot
+  777  ll
+  778  vim iptables.sh
+  779  sudo vim /var/lib/misc/dnsmasq.leases
+  780  sudo vim /etc/dnsmasq.conf
+  781  sudo cat /var/lib/misc/dnsmasq.leases
+  782  sudo vim /etc/hostapd/hostapd.conf
+  783  sudo reboot
+  784  sudo cat /var/lib/misc/dnsmasq.leases
+  785  history
+  786  sudo vim /etc/hostapd/hostapd.conf
+  787  sudo vim /etc/dnsmasq.conf
+  788  sudo cat /var/lib/misc/dnsmasq.leases
+  789  fg
+  790  sudo reboot
+  791  history
+  792  sudo cat /var/lib/misc/dnsmasq.leases
+  793  sudo vim /etc/dnsmasq.conf
+  794  sudo reboot
+  795  sudo cat /var/lib/misc/dnsmasq.leases
+  796  sudo vim /etc/dnsmasq.conf
+  797  sudo cat /var/lib/misc/dnsmasq.leases
+  798  sudo vim /etc/dnsmasq.conf
+  799  ll
+  800  vim iptables.sh
+  801  sudo vim /etc/dnsmasq.conf
+  802  vim iptables.sh
+  803  sudo vim /etc/dnsmasq.conf
+  804  vim iptables.sh
+  805  sudo cat /var/lib/misc/dnsmasq.leases
+  806  sudo reboot
+  807  sudo cat /var/lib/misc/dnsmasq.leases
+  808  sudo vim /etc/dnsmasq.conf
+  809  vim iptables.sh
+  810  sudo reboot
+  811  history
