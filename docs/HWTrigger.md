@@ -1,4 +1,4 @@
-### Hardware triger
+## Hardware triger
 
 VHDL files implemented in Vivado 2019.2.<br />
 
@@ -18,11 +18,11 @@ The FPGA will automatically be configured with the bitstream file when power on 
 
 FPGA generates two meanders with selectable frequencys (250 ms, 200 ms and 50 ms)  <br />
 **-4 fps** 
-<img src = "Images/HWTrigger/4fps.png" width = 600><br />
+<img src = "../Images/HWTrigger/4fps.png" width = 600><br />
 **-5 fps** 
-<img src = "Images/HWTrigger/5fps.png" width = 600><br />
+<img src = "../Images/HWTrigger/5fps.png" width = 600><br />
 **-20 fps** 
-<img src = "Images/HWTrigger/20fps.png" width = 600><br />
+<img src = "../Images/HWTrigger/20fps.png" width = 600><br />
 
 To stop meander any orther combinations in SW[3 downto 0] must be selected.
 
