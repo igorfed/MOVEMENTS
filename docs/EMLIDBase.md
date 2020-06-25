@@ -28,10 +28,11 @@ https://play.google.com/store/apps/details?id=com.reachview&hl=sv
   <img width="250" src = "../Images/ReachBaseSettings/5.CorrectionInput.jpg">
   <img width="250" src = "../Images/ReachBaseSettings/6.PositionOutput.jpg">
 </p>
+
 **Base Mode**
 <p align="center">
-  <img width="250" src = "../Images/ReachBaseSettings/Screenshot_20200224-114015.jpg">
-  <img width="250" src = "../Images/ReachBaseSettings/Screenshot_20200224-114012.jpg">
+  <img width="250" src = "../Images/ReachBaseSettings/BaseMode0.jpg">
+  <img width="250" src = "../Images/ReachBaseSettings/BaseMode1.jpg">
 </p>
 
 
