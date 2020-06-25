@@ -1,8 +1,7 @@
 # MOVEMENTS
 Multi-camera system design for birds monitoring
 
-### Hardware triger
-
-[Contribution guidelines for this project](docs/HWTrigger.md)
+## Hardware triger
+[**How to install and use hardware trigger**](docs/HWTrigger.md)
 
 
